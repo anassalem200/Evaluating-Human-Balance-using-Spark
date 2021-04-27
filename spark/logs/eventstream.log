@@ -1,0 +1,72 @@
+Creating customerStediTargetSchema Schema...
+customerStediTargetSchema Schema Created!
+Creating spark app..
+spark app created!
+-------------------------------------------
+Batch: 0
+-------------------------------------------
++--------------------+-----+
+|            customer|score|
++--------------------+-----+
+|Eric.Anandh@test.com|  6.5|
+|   Larry.Wu@test.com| 43.0|
+|Senthil.Khatib@te...|-19.0|
+|Edward.Abram@test...| 22.0|
+|Eric.Anderson@tes...| 32.0|
+|Christina.Aristot...| -2.0|
+|Edward.Anandh@tes...| -0.5|
+|Eric.Sanchez@test...| -6.0|
+|Danny.Fibonnaci@t...| -2.0|
+|Neeraj.Jackson@te...| -0.5|
+|   Lyn.Huey@test.com| -2.5|
+|Chris.Jefferson@t...| -3.0|
+|Suresh.Howard@tes...| -3.0|
+|Christina.Jones@t...| -5.0|
+|Ashley.Habschied@...| -1.0|
+|Gail.Clayton@test...| -3.0|
+|Sean.Anderson@tes...| -4.0|
+|Spencer.Gonzalez@...| -1.0|
+|Frank.Ahmed@test.com|-18.5|
+|Craig.Howard@test...| -4.0|
++--------------------+-----+
+only showing top 20 rows
+
+-------------------------------------------
+Batch: 1
+-------------------------------------------
++--------------------+-----+
+|            customer|score|
++--------------------+-----+
+|Chris.Jefferson@t...| -4.0|
+|Suresh.Howard@tes...| -4.0|
+|Christina.Jones@t...| -3.5|
+|Ashley.Habschied@...| -4.5|
++--------------------+-----+
+
+-------------------------------------------
+Batch: 2
+-------------------------------------------
++--------------------+-----+
+|            customer|score|
++--------------------+-----+
+|Gail.Clayton@test...| -0.5|
++--------------------+-----+
+
+-------------------------------------------
+Batch: 3
+-------------------------------------------
++--------------------+-----+
+|            customer|score|
++--------------------+-----+
+|Sean.Anderson@tes...|-10.5|
++--------------------+-----+
+
+-------------------------------------------
+Batch: 4
+-------------------------------------------
++--------------------+-----+
+|            customer|score|
++--------------------+-----+
+|Spencer.Gonzalez@...|  3.0|
++--------------------+-----+
+

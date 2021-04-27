@@ -1,0 +1,28 @@
+Creating redisMessageSchema Template...
+redisMessageSchema Template Created!
+Creating customerRedisTargetSchema Schema...
+customerRedisTargetSchema Schema Created!
+Creating customerStediTargetSchema Schema...
+customerStediTargetSchema Schema Created!
+Creating spark app..
+spark app created!
+setting log level to (WARN)
+Done.
+Loading from a redis-server kafka source...
+loaded as: customerRedisRawStreamingDF
+casting key:value to string
+done
+parsing from json..
+Done.
+executing query: extract from zSetEntries[0].element
+Done.
+uncodeing base64 payload...
+Done.
+Deserilaizing payload...
+Done.
+executing sql to extract email and name...
+Done.
+splitting year from birthday...
+Done.
+selecting email, and birthYear
+selected.
